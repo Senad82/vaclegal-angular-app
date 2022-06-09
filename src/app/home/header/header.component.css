@@ -1,0 +1,36 @@
+.main-header {
+    height: 25rem;
+    width: 100%;
+    background: #1c1c2e;
+}
+
+.header-textbox {
+    position: relative;
+    float: left;
+    font-family: sans-serif;
+    margin: 10% 5%;
+    text-align: justify;
+}
+
+.header-para {
+    float: left;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.home-1 {
+    color: #ccc;
+    font-size: 120%;
+    margin-right: 10%;
+}
+
+.home-1:after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: #043657;
+    content: " ";
+    margin: 20px auto 0 0;
+}

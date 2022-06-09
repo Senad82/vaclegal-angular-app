@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+body {
+    background-color: #27272e;
+    color: #fff;
+}
+
+
+/* footer global styles */
+
+footer {
+    background-color: #333;
+    padding: 2%;
+    font-size: 80%;
+    color: #888;
+}
+
+.mail-link {
+    padding: 0.5rem 1rem;
+    color: #888;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.social-links {
+    float: right;
+    margin-right: 2rem;
+}
+
+.nav-footer {
+    list-style-type: none;
+}
+
+.col {
+    text-align: left;
+}
+
+.contact {
+    padding-left: 0 !important;
+}
+
+.contact-1 {
+    text-align: justify;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    color: #888;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.mail-link:hover,
+.mail-link:active {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.fa-facebook,
+.fa-instagram-square {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+.copy-right,
+footer span a {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #888;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+footer span a:hover {
+    color: #fff;
+}
+
+
+/* -----------------Navbar global styles-------------------------------*/
+
+.nav-custom-1 {
+    background-color: #253c5e;
+}
+
+.main-nav {
+    float: right;
+}
+
+.nav-link {
+    color: darkgray;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+}
+
+.logo-small {
+    height: 5rem;
+    width: auto;
+}
+
+.icon-1 {
+    background-image: url("assets/images/menu-icon.png");
+}
+
+.se-3 {
+    margin-right: 0.5rem;
+}
